@@ -38,6 +38,7 @@ body {
 }
 
 .header {
+  padding-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
