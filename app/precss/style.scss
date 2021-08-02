@@ -39,6 +39,7 @@ body{
 
 .header{
     @include flex;
+    flex-direction: column;
     padding: 40px 0;
     &.fixed-top{
         padding: 44px 0;
@@ -524,4 +525,12 @@ body{
         }
     }
     
+}
+
+/* ------------------------------------Index.html End---------------------------------------------------- */
+
+
+.content{
+    @include flex;
+    @include bg('/app/img/contact_header.jpeg');
 }

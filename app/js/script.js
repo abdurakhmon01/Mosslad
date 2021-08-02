@@ -11,8 +11,8 @@ $(document).ready(function () {
         pauseOnFocus: true,
     })
     
-    $('.header-menu__link').click(function(e){
-        e.preventDefault();
+    $('.header-menu__link').click(function(){
+        // e.preventDefault();
         $('.header-menu__link').removeClass('header-menu__link_active');
         $(this).addClass('header-menu__link_active');
     })
