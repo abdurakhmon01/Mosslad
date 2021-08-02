@@ -35,6 +35,7 @@ function style(){
 gulp.task('watch', function(){
     watch('./app/precss/style.scss', style)
     watch('./app/index.html', browserSync.reload)
+    watch('./app/contact.html', browserSync.reload)
     watch('./app/js/script.js', browserSync.reload)
 })
 

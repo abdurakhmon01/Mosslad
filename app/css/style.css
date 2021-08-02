@@ -561,18 +561,21 @@ body {
   padding-left: 0;
 }
 
-/* ------------------------------------Index.html End---------------------------------------------------- */
+/* ------------------------------------Index.html Endd---------------------------------------------------- */
 
-.content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.contact-content {
+  padding: 250px;
+  background: url("../img/contact_header.jpeg");
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-content h2 {
+  background: #fff;
+  display: inline-block;
+  padding: 20px 80px;
+  color: #bea2ff;
 }
 
 @media (max-width: 1199.98px) {
